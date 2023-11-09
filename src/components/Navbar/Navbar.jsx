@@ -25,7 +25,7 @@ const Navbar = () => {
           }
         </div>
       <div>
-        <List className={`absolute hover:cursor-pointer lg:static duration-300 lg:flex justify-end gap-x-10 font-DM text-primary text-sm bg-white px-5 py-5 lg:px-0 lg:py-0 shadow rounded lg:shadow-none w-[200px] text-center   ${show ? 'top-[88px] left-0' : 'top-[88px] -left-72'}`}>
+        <List className={`absolute hover:cursor-pointer lg:static duration-300 lg:flex justify-end gap-x-10 font-DM text-primary text-sm bg-white px-5 py-5 lg:px-0 lg:py-0 shadow rounded lg:shadow-none w-[200px] text-center z-10   ${show ? 'top-[88px] left-0' : 'top-[88px] -left-72'}`}>
           <NavLink to ='/'>
             <Listitems className=' hover:text-secondary hover:font-bold hover:transition hover:duration-300 hover:ease-in-out' itemName='Home'/>
           </NavLink>
