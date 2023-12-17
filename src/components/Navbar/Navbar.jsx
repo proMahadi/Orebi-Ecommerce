@@ -16,7 +16,9 @@ const Navbar = () => {
   <>
     <Container className='flex py-10 px-2.5 lg:px-0'>
       <div className='w-full lg:w-1/5'>
-        <img src={logo} alt="logo" />
+        <Link to='/'>
+          <img src={logo} alt="logo" />
+        </Link>
       </div>
       <div className='w-full lg:w-4/5 flex justify-end'>
       <div onClick={handleClick}>
