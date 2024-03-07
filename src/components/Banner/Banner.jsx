@@ -79,7 +79,7 @@ const Banner = () => {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 initialSlide: 0,
-                  beforeChange: (next) => {
+                  beforeChange: (prev,next) => {
                       setActiveDots( next );
                     },
                   appendDots: dots => (
